@@ -3,5 +3,6 @@ function exibirNome() {
 
 //  console.log("Nome digitado:", nome)
 
-    document.getElementById("msg").innerHTML = nome;
+    document.getElementById("msg").innerHTML = `Olá, ${nome}`;
+
 }
